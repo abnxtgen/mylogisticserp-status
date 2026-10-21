@@ -27,9 +27,10 @@ status-website:
   logoUrl: https://www.mylogisticserp.com/icons/mylogisticserp-logo-192.png
   favicon: https://www.mylogisticserp.com/icons/mylogisticserp-logo-192.png
   # Light theme, 90-day uptime bars and status labels live in assets/ (served from the site root).
-  themeUrl: status-theme.css
+  # Full URLs: the site builder breaks on relative ones. Update them if the page moves to status.mylogisticserp.com.
+  themeUrl: https://rsnintl.github.io/mylogisticserp-status/status-theme.css
   scripts:
-    - src: status-page.js
+    - src: https://rsnintl.github.io/mylogisticserp-status/status-page.js
   navbar:
     - title: Go to MyLogisticsERP →
       href: https://www.mylogisticserp.com/
