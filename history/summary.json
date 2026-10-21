@@ -1,6 +1,6 @@
 [
   {
-    "name": "Web App",
+    "name": "Software",
     "url": "https://www.mylogisticserp.com/",
     "icon": "https://icons.duckduckgo.com/ip3/www.mylogisticserp.com.ico",
     "slug": "web-app",
@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 3170,
-    "timeDay": 3170,
-    "timeWeek": 3170,
-    "timeMonth": 3170,
-    "timeYear": 3170,
+    "time": 1771,
+    "timeDay": 1771,
+    "timeWeek": 1771,
+    "timeMonth": 1771,
+    "timeYear": 1771,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 788,
-    "timeDay": 788,
-    "timeWeek": 788,
-    "timeMonth": 788,
-    "timeYear": 788,
+    "time": 728,
+    "timeDay": 728,
+    "timeWeek": 728,
+    "timeMonth": 728,
+    "timeYear": 728,
     "dailyMinutesDown": {}
   }
 ]
