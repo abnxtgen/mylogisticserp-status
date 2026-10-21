@@ -1,0 +1,33 @@
+# Upptime config for the MyLogisticsERP public status page.
+# Paste this over .upptimerc.yml in the new public repo made from the Upptime template.
+# Repo: github.com/rsnintl/mylogisticserp-status
+owner: rsnintl
+repo: mylogisticserp-status
+
+sites:
+  - name: Web App
+    url: https://www.mylogisticserp.com/
+  - name: API & Database
+    url: https://api.mylogisticserp.com/api/v1/health
+    # The health check returns 503 when the database is down; this also
+    # marks it down if a 200 ever comes back without an "ok" status.
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
+
+# Outage issues are assigned to you, so GitHub emails you when something goes down.
+assignees:
+  - rsnintl
+
+status-website:
+  # No subdomain yet, so the page is served at https://rsnintl.github.io/mylogisticserp-status/
+  # When status.mylogisticserp.com is ready: delete baseUrl and add  cname: status.mylogisticserp.com
+  baseUrl: /mylogisticserp-status
+  name: MyLogisticsERP Status
+  logoUrl: https://www.mylogisticserp.com/icons/mylogisticserp-logo-192.png
+  favicon: https://www.mylogisticserp.com/icons/mylogisticserp-logo-192.png
+  introTitle: "MyLogisticsERP system status"
+  introMessage: Live availability of the MyLogisticsERP web app and API, checked every 5 minutes.
+  navbar:
+    - title: Status
+      href: /
+    - title: Open MyLogisticsERP
+      href: https://www.mylogisticserp.com/
