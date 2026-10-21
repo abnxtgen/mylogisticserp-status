@@ -24,10 +24,13 @@ status-website:
   name: MyLogisticsERP Status
   logoUrl: https://www.mylogisticserp.com/icons/mylogisticserp-logo-192.png
   favicon: https://www.mylogisticserp.com/icons/mylogisticserp-logo-192.png
-  introTitle: "MyLogisticsERP system status"
-  introMessage: Live availability of the MyLogisticsERP web app and API, checked every 5 minutes.
+  # Light theme, 90-day uptime bars and status labels live in assets/ (served from the site root).
+  themeUrl: status-theme.css
+  scripts:
+    - src: status-page.js
   navbar:
-    - title: Status
-      href: /
-    - title: Open MyLogisticsERP
+    - title: Go to MyLogisticsERP →
       href: https://www.mylogisticserp.com/
+
+i18n:
+  footer: © MyLogisticsERP
