@@ -5,7 +5,9 @@ owner: rsnintl
 repo: mylogisticserp-status
 
 sites:
-  - name: Web App
+  - name: Software
+    # slug kept from the old "Web App" name so its history carries on
+    slug: web-app
     url: https://www.mylogisticserp.com/
   - name: API & Database
     url: https://api.mylogisticserp.com/api/v1/health
