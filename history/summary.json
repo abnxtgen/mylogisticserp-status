@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Web App",
+    "url": "https://www.mylogisticserp.com/",
+    "icon": "https://icons.duckduckgo.com/ip3/www.mylogisticserp.com.ico",
+    "slug": "web-app",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 3170,
+    "timeDay": 3170,
+    "timeWeek": 3170,
+    "timeMonth": 3170,
+    "timeYear": 3170,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "API & Database",
+    "url": "https://api.mylogisticserp.com/api/v1/health",
+    "icon": "https://icons.duckduckgo.com/ip3/api.mylogisticserp.com.ico",
+    "slug": "api-and-database",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 788,
+    "timeDay": 788,
+    "timeWeek": 788,
+    "timeMonth": 788,
+    "timeYear": 788,
+    "dailyMinutesDown": {}
+  }
+]
