@@ -1,7 +1,7 @@
 # Upptime config for the MyLogisticsERP public status page.
 # Paste this over .upptimerc.yml in the new public repo made from the Upptime template.
-# Repo: github.com/rsnintl/mylogisticserp-status
-owner: rsnintl
+# Repo: github.com/abnxtgen/mylogisticserp-status
+owner: abnxtgen
 repo: mylogisticserp-status
 
 sites:
@@ -17,10 +17,10 @@ sites:
 
 # Outage issues are assigned to you, so GitHub emails you when something goes down.
 assignees:
-  - rsnintl
+  - abnxtgen
 
 status-website:
-  # No subdomain yet, so the page is served at https://rsnintl.github.io/mylogisticserp-status/
+  # No subdomain yet, so the page is served at https://abnxtgen.github.io/mylogisticserp-status/
   # When status.mylogisticserp.com is ready: delete baseUrl and add  cname: status.mylogisticserp.com
   baseUrl: /mylogisticserp-status
   name: MyLogisticsERP Status
@@ -28,9 +28,9 @@ status-website:
   favicon: https://www.mylogisticserp.com/icons/mylogisticserp-logo-192.png
   # Light theme, 90-day uptime bars and status labels live in assets/ (served from the site root).
   # Full URLs: the site builder breaks on relative ones. Update them if the page moves to status.mylogisticserp.com.
-  themeUrl: https://rsnintl.github.io/mylogisticserp-status/status-theme.css
+  themeUrl: https://abnxtgen.github.io/mylogisticserp-status/status-theme.css
   scripts:
-    - src: https://rsnintl.github.io/mylogisticserp-status/status-page.js
+    - src: https://abnxtgen.github.io/mylogisticserp-status/status-page.js
   navbar:
     - title: Go to MyLogisticsERP →
       href: https://www.mylogisticserp.com/
