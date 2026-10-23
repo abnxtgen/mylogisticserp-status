@@ -5,7 +5,7 @@
   if (window.__mspStatusPage) return;
   window.__mspStatusPage = true;
 
-  var OWNER = 'rsnintl';
+  var OWNER = 'abnxtgen';
   var REPO = 'mylogisticserp-status';
   var HISTORY = 'https://raw.githubusercontent.com/' + OWNER + '/' + REPO + '/master/history/';
   var DAYS = 90;
