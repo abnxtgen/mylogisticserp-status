@@ -10,7 +10,7 @@
   var HISTORY = 'https://raw.githubusercontent.com/' + OWNER + '/' + REPO + '/master/history/';
   var DAYS = 90;
   var DAY_MS = 86400000;
-  var BRAND = 'MyLogisticsERP';
+  var LEGAL_NAME = 'AB NXTGEN Technologies Pvt Ltd';
 
   var STATE_LABELS = {
     up: 'Operational',
@@ -216,7 +216,7 @@
     var text = footer.querySelector('p');
     if (!text || text.getAttribute('data-msp')) return;
     text.setAttribute('data-msp', 'done');
-    text.textContent = '© ' + new Date().getFullYear() + ' ' + BRAND;
+    text.textContent = '© ' + new Date().getFullYear() + ' ' + LEGAL_NAME;
   }
 
   function apply() {
